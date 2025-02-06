@@ -1,0 +1,17 @@
+
+<div style="box-shadow: 0px 0px 10px rgba(10,10,10,0.3); padding:10px; margin: 10px;">
+    <h1><%= post.title %></h1>
+    <hr/>
+    <p><%= post.description %></p>
+    <hr/>
+    <small>
+        Post Escrito por <%= post.user.email %>
+    </small>
+
+    <% if post.user.id === current_user.id %>
+        <hr/>
+
+        <%= link_to 'Editar Post', edit_post_path(post) %>
+        <%= button_to 'Excluir Post', post, method: :delete %>
+    <% end %>
+</div>

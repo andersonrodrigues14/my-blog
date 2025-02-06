@@ -1,0 +1,9 @@
+<%= link_to 'Voltar para Todos os Posts', posts_path %>
+
+<br />
+
+<%= link_to 'Criar Novo Post', new_post_path %>
+
+<% @posts.each do |post| %>
+   <%= render partial: 'posts/post_template', locals: {post: post} %>
+<% end %>
