@@ -7,7 +7,7 @@ Esse projeto é de um Blog onde é possível criar usuário e ele faz a validaç
 
 
 ## Tecnologias
-- Ruby
+- Ruby on Rails
 - Devise (Autenticação)
 - Json
 - chartkick
