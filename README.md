@@ -2,8 +2,7 @@
 Esse projeto é de um Blog onde é possível criar usuário e ele faz a validação de autenticação, criar, editar e excluir posts, utilizando Ruby on Rails.
 
 ## :camera_flash: Screenshots
-
-
+https://github.com/user-attachments/assets/4fb65110-bc44-4546-b996-14723523bff8
 
 
 ## Tecnologias
